@@ -20,20 +20,4 @@ window.onclick = function(e)
 		elem.classList.add("hidden-sm");
 		temp++;
 	}
-	// elem = document.getElementById(e.target.attributes[1].value);
-	// console.log(elemActiv.classList)
-	// if(elemActiv.classList.contains("burger-hidden"))
-	// {
-	// 	document.getElementById(e.target.attributes[1].value+"close-button").classList.remove("unvisible");
-	// 	elemActiv.classList.add("unvisible");
-	// 	elem.classList.remove("hidden");
-	// 	console.log("huy1")
-	// }
-	// if(elemActiv.classList.contains("burger-close"))
-	// {
-	// 	document.getElementById(e.target.attributes[1].value+"-button").classList.remove("unvisible");
-	// 	elemActiv.classList.add("unvisible")
-	// 	elem.classList.add("hidden");
-	// 	console.log("her2")
-	// }
 }
