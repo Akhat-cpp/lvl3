@@ -55,7 +55,6 @@ window.onload = function()
 			document.getElementById(id + "imgEl" + counter2).height = maxImgHeight;
 			counter2++;
 		}
-		console.log(document.getElementById(id + "imgEl2").width)
 		document.getElementById(id + "imgDiv").style.width = maxImgWidth + "px";
 		document.getElementById(id + "imgDiv").height = maxImgHeight;
 		document.getElementById(id).classList.remove("unvisible");//can delete1
