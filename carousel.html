@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Каруселька:)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="carousel.css">
+
+	<script src="https://kit.fontawesome.com/a92211bf3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="treteeZadanie">
+		<div id="carousel1"></div>
+	</div>
+	<div id="qwert"></div>
+
+	<script src="carousel.js"></script>
+	<script>
+		const config1 = ["https://loremflickr.com/320/240", "https://loremflickr.com/320/240", "https://loremflickr.com/325/240"];
+		Carousel("carousel1", config1);
+	</script>
+	<script>
+		const config2 = ["https://loremflickr.com/720/480", "https://loremflickr.com/720/480", "https://loremflickr.com/450/250"];
+		Carousel("qwert", config2);
+	</script>
+</body>
+</html>
