@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dialog</title>
+
+	<link rel="stylesheet" href="modal.css">
+	
+	<script src="https://kit.fontawesome.com/a92211bf3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="pervoeZadanie">
+		<div class="backblack unvisible" id="darkBackgroundId"></div>
+		<div class="naVesEkran">
+			<div>
+				<button class="modal-trigger" data-target="send" id="send-button">Отправить</button>
+
+				<div class="modal unvisible" id="send">
+					<i class="fas fa-times modal-close" data-tadget="close" id="close-button"></i>
+				    … some html content
+				    <button class="modal-close" data-target="close" id="close-button">Понятно</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="modal.js"></script>
+</body>
+</html>
